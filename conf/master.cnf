@@ -4,3 +4,4 @@ log-bin=black-bin.log
 datadir=/home/nyediginjala/mySQL/data/master
 innodb_flush_log_at_trx_commit=1
 sync_binlog=1
+user=nyediginjala
