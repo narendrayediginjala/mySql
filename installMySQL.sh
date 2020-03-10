@@ -19,3 +19,9 @@ if [ $mysqlinstallstatus -ne 0 ]; then
 echo "there is problem installing mysql"
 exit 1
 fi
+
+echo("***********************************************************")
+echo("Please enter the new passwords when asked")
+echo("***********************************************************")
+
+sudo mysql_secure_installation
