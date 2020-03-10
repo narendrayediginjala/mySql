@@ -1,0 +1,5 @@
+[mysqld]
+server-id=2
+relay-log=slave-relay-bin
+datadir=/home/nyediginjala/mySQL/data/slave
+relay-log-index=slave-relay-bin.index
